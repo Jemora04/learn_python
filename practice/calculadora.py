@@ -6,14 +6,14 @@ resta =  n1 - n2
 multi = n1 * n2
 div = n1 + n2
 
-mensaje = f"""
+mensaje = f"""esteban tiene {4} t/penes"""
 
-el resultado de los valores {n1} y {n2}
-Suma:{suma}
-resta:{resta}
-multi:{multi}
-div:{div}
-"""
+#el resultado de los valores {n1} y {n2}
+#Suma:{suma}
+#resta:{resta}#
+#multi:{multi}#
+#div:{div}#
 
 print(mensaje)
+
 
