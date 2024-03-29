@@ -52,13 +52,13 @@ Button(root, text="exp").grid(row=3, column=4, sticky=W+E)
 Button(root, text="^2").grid(row=3, column=5, sticky=W+E)
 Button(root, text="(").grid(row=4, column=4, sticky=W+E)
 Button(root, text=")").grid(row=4, column=5, sticky=W+E)
-Button(root, text="=").grid(row=5, column=4, sticky=W+E, columnspan= 2)#columnspan hice que el = utilizara dos espacios
+Button(root, text="=").grid(row=5, column=4, sticky=W+E, columnspan= 2)#columnspan hice que el = utilizara dos espacios, tambien es para ver cuantas columnas ocupara el boton, por ejemplo, 6 columnas de ancho
 Button(root, text="-").grid(row=2, column=5, sticky=W+E)
 
 
 
 
-
+hh
 
 
 root.mainloop()#indispensable para que aparezca la ventana
