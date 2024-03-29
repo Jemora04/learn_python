@@ -53,7 +53,7 @@ Button(root, text="^2").grid(row=3, column=5, sticky=W+E)
 Button(root, text="(").grid(row=4, column=4, sticky=W+E)
 Button(root, text=")").grid(row=4, column=5, sticky=W+E)
 Button(root, text="=").grid(row=5, column=4, sticky=W+E, columnspan= 2)#columnspan hice que el = utilizara dos espacios
-
+Button(root, text="-").grid(row=2, column=5, sticky=W+E)
 
 
 
