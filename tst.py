@@ -1,5 +1,4 @@
 import random  # Importa el módulo random para generar números aleatorios
-from hola import cabeza_de_monda
 
 def adivina_el_numero():  # Define una función llamada adivina_el_numero()
     numero_secreto = random.randint(1, 10)  # Genera un número aleatorio entre 1 y 10 y lo asigna a la variable numero_secreto
@@ -23,7 +22,6 @@ def adivina_el_numero():  # Define una función llamada adivina_el_numero()
             break  # Sale del bucle infinito
 
 if __name__ == "__main__":  # Comprueba si el script se está ejecutando directamente como el programa principal
-    cabeza_de_monda()
-    adivina_el_numero()  # Llama a la función adivina_el_numero() para iniciar el juego
+    adivina_el_numero()  # Llama a la función adivina_el_numero() para iniciar el game in the terminal
 
 
